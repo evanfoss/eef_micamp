@@ -1,0 +1,26 @@
+refdes, device, footprint, value, comment, description, model-name, symversion
+C1., CAPACITOR, ACY400, 47nF, , Metal Film/Mica, , 0.1
+C5., CAPACITOR, RCY100, 0.1uF, C315C104M5U5TA, ceramic, , 0.1
+C6., POLARIZED_CAPACITOR, RCY100P, 100uF, P5138-ND, Electrolytic, , 0.1
+C7., POLARIZED_CAPACITOR, RCY100P, 100uF, P5138-ND, Electrolytic, , 0.1
+C10., CAPACITOR, ACY400, 1uF, EF1105, Metal Film, , 0.1
+C11., CAPACITOR, ACY400, 1uF, EF1105, Metal Film, , 0.1
+C12., CAPACITOR, RCY100, 0.1uF, C315C104M5U5TA, ceramic, , 0.1
+C13., CAPACITOR, RCY100, 0.1uF, C315C104M5U5TA, ceramic, , 0.1
+C31., CAPACITOR, ACY300, 47pF, none-chosen, mica, , 0.1
+CONN1, CONNECTOR_5, JUMPER5, , 126-221, Wired to MiniHEX9 (Female), , 
+CONN2, MiniDIN5, CUI_MD-505M, , MD-505M, MFG: CUI ; Part#: MD-505M, , 1.0
+CONN3, BNC Connector, AMPHENOL_BNC_31-5431-short, , 31-5431, MFG: Amphenol ; Part#: 31-5431, , 1.0
+CONN4, CONNECTOR_5, JUMPER5, , 126-220, Wired to MiniHEX9 (Male), , 
+R1, RESISTOR, ACY400, 220K, , , , 
+R10, RESISTOR, ACY400, 100, , , , 
+R11, RESISTOR, ACY400, 499, , , , 
+R13, RESISTOR, ACY400, 5.49K, , , , 
+R22, RESISTOR, ACY400, 475, , , , 
+R23, RESISTOR, ACY400, 90.9, , , , 
+R24, RESISTOR, ACY400, 4.7K, , , , 
+R31, RESISTOR, ACY400, 49.9K, , , , 
+S1, Dual_Two_Way_Switch, CK_7201SYAQE.fp, , 7201SYAQE, MFG: C&K ; Part#: 7201SYAQE, , 1.0
+U1, LME49710NA, DIP8, , , , LME49710NA, 0.1
+U2, LF356, DIP8, , , , , 
+VREG1, LM317, TO92, , , , , 
