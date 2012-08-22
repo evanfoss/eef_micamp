@@ -40,6 +40,9 @@ NETDRC = -g drc2 -o drcerrors-tmp.text
 GRAPHTOOL = gwave2
 GRAPHFLAGS = 
 #
+## BOM Generation tool
+BOMTOOL = pcb
+BOMFLAGS = -x bom
 
 all:	
 	echo "Please read the documentation before attempting any changes."
@@ -68,6 +71,9 @@ pcb:
 
 view:	
 	$(PCBVIEW) $(PCBVIEWFLAGS) 
+
+bom:
+	$(BOMTOOL) $(BOMFLAGS) MicAmp_v1.pcb
 
 orderapc:
 	echo "Be sure to edit orderform.txt and README.ME."
