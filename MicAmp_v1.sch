@@ -1,4 +1,4 @@
-v 20100214 2
+v 20110115 2
 C 40000 40000 0 0 0 title-C.sym
 C 50000 53200 1 0 1 lm317-1.sym
 {
@@ -8,6 +8,8 @@ T 48300 54600 5 10 1 1 0 0 1
 refdes=VREG1
 T 49700 53300 5 10 1 1 0 6 1
 footprint=TO92
+T 50000 53200 5 10 0 1 0 0 1
+value=LM317
 }
 C 43700 45900 1 0 0 capacitor-1.sym
 {
@@ -182,6 +184,8 @@ T 40800 50400 5 10 0 1 0 0 1
 description=MFG: CUI ; Part#: MD-505M
 T 40800 50400 5 10 0 0 0 0 1
 symversion=1.0
+T 40800 50400 5 10 0 1 0 0 1
+value=MD-505M
 }
 C 59100 45400 1 0 1 BNC-1.sym
 {
@@ -197,6 +201,8 @@ T 58700 46300 5 10 0 1 0 0 1
 description=MFG: Amphenol ; Part#: 31-5431
 T 59100 45400 5 10 0 0 0 0 1
 symversion=1.0
+T 59100 45400 5 10 0 1 0 0 1
+value=31-5431
 }
 N 42500 50900 43700 50900 4
 N 43700 50900 43700 52000 4
@@ -431,6 +437,8 @@ T 52500 53300 5 10 1 1 0 0 1
 footprint=JUMPER5
 T 52500 53700 5 10 1 1 0 0 1
 comment=126-220
+T 52500 51600 5 10 0 1 0 0 1
+value=126-220
 }
 C 57300 45800 1 0 0 resistor-1.sym
 {
@@ -463,6 +471,8 @@ T 46995 44950 5 10 1 1 0 3 1
 footprint=CK_7201SYAQE.fp
 T 46500 43200 5 10 0 1 0 0 1
 description=MFG: C&K ; Part#: 7201SYAQE
+T 46500 43400 5 10 0 1 0 0 1
+value=7201SYAQE
 }
 C 48100 43900 1 0 0 resistor-1.sym
 {
@@ -519,6 +529,8 @@ T 52500 56000 5 10 1 1 0 0 1
 footprint=JUMPER5
 T 52500 56400 5 10 1 1 0 0 1
 comment=126-221
+T 52500 54300 5 10 0 1 0 0 1
+value=126-221
 }
 N 54200 55700 55800 55700 4
 N 55200 54500 54200 54500 4
@@ -535,6 +547,8 @@ T 55700 46800 5 10 1 1 0 6 1
 refdes=U2
 T 54400 48750 5 10 0 0 0 0 1
 footprint=DIP8
+T 54100 45400 5 10 0 1 0 0 1
+value=LF356
 }
 T 55000 40700 9 10 1 0 0 0 1
 Microphone Amplifier
@@ -591,6 +605,8 @@ T 51495 46395 5 10 1 1 0 0 1
 model-name=LME49710NA
 T 51500 46200 5 10 1 1 0 0 1
 footprint=DIP8
+T 50500 45400 5 10 0 1 0 0 1
+value=LME49710NA
 }
 T 40500 42000 9 10 1 0 0 0 1
 Note: Originally the design used an OPA134 instead of the LME49710. The PCB has not yet been updated to reflect this.

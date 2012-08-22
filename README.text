@@ -17,12 +17,12 @@ MicAmp_v1.ps			- This is a Postscript copy of the above file.
 hidden-magic.sch		- This is where I put all the things I can't easily/correctly depict graphically in the other schematic.
 hidden-magic.sch~		- This is the temp copy of hidden-magic.sch.
 hidden-magic.ps			- This is a Postscript copy of the above file.
-MicAmp_v1.csv			- This is a file I manual generate in gattrib.
 MicAmp_v1.prj			- This project file is used by gsch2pcb to create the PCB.
 foot/				- This is the directory with some of the footprints used in the project.
 MicAmp_v1.net			- This the project netlist.
 MicAmp_v1.cmd			- This is the pcb command file.
 MicAmp_v1.pcb			- This is the pcb file.
+MicAmp_v1.bom			- This is the BOM (Bill of Matterials) file generated automatically from the pcb via the project makefile
 MicAmp_v1.pcb.bak		- This is the pcb backup file.
 albertaprinted.vendor		- This vendor file is one I did for Alberta Printed Circuit.
 README.text			- This file.
