@@ -47,12 +47,13 @@ all:
 
 orderapc:
 	echo "Be sure to edit orderform.txt and if you need to README.ME."
-	mv MicAmp_v1.frontsilk.gbr cslk.gbr
-	mv MicAmp_v1.front.gbr compont.gbr
-	mv MicAmp_v1.frontmask.gbr cmsk.gbr
-	mv MicAmp_v1.back.gbr solder.gbr
-	mv MicAmp_v1.backmask.gbr smsk.gbr
+	mv MicAmp_v1.topsilk.gbr cslk.gbr
+	mv MicAmp_v1.top.gbr compont.gbr
+	mv MicAmp_v1.topmask.gbr cmsk.gbr
+	mv MicAmp_v1.bottom.gbr solder.gbr
+	mv MicAmp_v1.bottommask.gbr smsk.gbr
 	mv MicAmp_v1.plated-drill.cnc drill.cnc
-	rm MicAmp_v1.fab.gbr
+	mv MicAmp_v1.outline.gbr outline.gbr
+	mv MicAmp_v1.fab.gbr fab.gbr
 	#zip -jk micamp-apcorder.zip *.gbr drill.cnc ascorder.txt READ.ME
 

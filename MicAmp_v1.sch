@@ -1,4 +1,4 @@
-v 20110115 2
+v 20121123 2
 C 40000 40000 0 0 0 title-C.sym
 C 50000 53200 1 0 1 lm317-1.sym
 {
@@ -194,7 +194,7 @@ device=BNC Connector
 T 58700 46700 5 10 1 1 0 0 1
 refdes=CONN3
 T 58700 46100 5 10 1 1 0 0 1
-footprint=AMPHENOL_BNC_31-5431-short
+footprint=AMPHENOL_BNC_31-5431-ver2
 T 58700 46300 5 10 1 1 0 0 1
 comment=31-5431
 T 58700 46300 5 10 0 1 0 0 1
