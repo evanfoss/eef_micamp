@@ -78,9 +78,9 @@ value=100uF
 T 46700 50600 5 10 1 1 0 6 1
 footprint=RCY100P
 T 46700 50800 5 10 1 1 0 6 1
-comment=P5138-ND
+comment=P16292-ND
 T 46700 51000 5 10 1 1 0 6 1
-description=Electrolytic
+description=AlPoly
 }
 C 45500 51900 1 0 0 resistor-1.sym
 {
@@ -106,9 +106,9 @@ value=100uF
 T 44700 50600 5 10 1 1 0 6 1
 footprint=RCY100P
 T 44700 50800 5 10 1 1 0 6 1
-comment=P5138-ND
+comment=P16292-ND
 T 44700 51000 5 10 1 1 0 6 1
-description=Electrolytic
+description=AlPoly
 }
 N 49000 53200 49000 51500 4
 N 48500 52000 49000 52000 4
