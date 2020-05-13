@@ -1,0 +1,19 @@
+
+% define some scale
+tera = 10^12
+giga = 10^9
+mega = 10^6
+kilo = 10^3
+milli = 10^-3
+micro = 10^-6
+nano = 10^-9
+pico = 10^-12
+femto = 10^-15
+
+% what was the original -3db point?
+freq_3db = 1/(2 * pi * (39*pico) * (49.9*kilo) )
+
+% what should the new capacitor be assuming the new filter R is 2K Ohms
+C_new = 1 / ( 2 * pi * (freq_3db) * (2*kilo) )
+
+
