@@ -66,8 +66,8 @@ change:
 #	$(GRAPHTOOL) $(GRAPHFLAGS) graph.dat
 
 pcb:	
-	gsch2pcb MicAmp_v1.prj
-	pcb MicAmp_v1.pcb
+	gsch2pcb-rnd -m import project.lht
+	pcb-rnd MicAmp_v1.lht
 
 view:	
 	$(PCBVIEW) $(PCBVIEWFLAGS) 
