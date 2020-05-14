@@ -37,9 +37,9 @@ value=475
 T 48100 52200 5 10 1 1 0 3 1
 footprint=acy(400)
 }
-C 49100 50600 1 90 0 resistor-1.sym
+C 48900 51500 1 270 0 resistor-1.sym
 {
-T 48700 50900 5 10 0 0 90 0 1
+T 49300 51200 5 10 0 0 270 0 1
 device=RESISTOR
 T 48800 51200 5 10 1 1 0 6 1
 refdes=R23
@@ -142,9 +142,9 @@ net=P15V:1
 T 51000 54600 5 10 1 1 0 3 1
 comment=+15V
 }
-C 43200 44500 1 90 0 resistor-1.sym
+C 43000 45400 1 270 0 resistor-1.sym
 {
-T 42800 44800 5 10 0 0 90 0 1
+T 43400 45100 5 10 0 0 270 0 1
 device=RESISTOR
 T 42900 45100 5 10 1 1 0 6 1
 refdes=R1
