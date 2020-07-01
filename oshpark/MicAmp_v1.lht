@@ -9372,19 +9372,31 @@ ha:pcb-rnd-board-v6 {
         }
        }
        ha:line.1694 {
-        x1=79.375mm; y1=50.0mil; x2=79.375mm; y2=1.885in; thickness=6.0mil; clearance=12.0mil;
+        x1=79.375mm; y1=50.0mil; x2=79.375mm; y2=1.8in; thickness=6.0mil; clearance=12.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.1697 {
-        x1=79.375mm; y1=1.885in; x2=30.0mil; y2=1.885in; thickness=6.0mil; clearance=12.0mil;
+       ha:line.27338 {
+        x1=30.0mil; y1=1.8in; x2=30.0mil; y2=50.0mil; thickness=6.0mil; clearance=12.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.1700 {
-        x1=30.0mil; y1=1.885in; x2=30.0mil; y2=50.0mil; thickness=6.0mil; clearance=12.0mil;
+       ha:line.27346 {
+        x1=77.343mm; y1=1.885in; x2=115.0mil; y2=1.885in; thickness=6.0mil; clearance=12.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.27337 {
+        x=115.0mil; y=1.8in; width=85.0mil; height=85.0mil; astart=0.000000; adelta=90.000000; thickness=6.0mil; clearance=12.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.27345 {
+        x=3.04in; y=1.8in; width=85.0mil; height=85.0mil; astart=90.000000; adelta=90.000000; thickness=6.0mil; clearance=12.0mil;
         ha:flags {
          clearline=1
         }
@@ -11612,12 +11624,12 @@ ha:pcb-rnd-board-v6 {
     ha:P15V {
     li:conn { U1-7; CONN4-1; CONN1-1; C10-2; U2-7; C12-1; C5-2; VREG1-3;    }
     }
+                  ha:N15V {
+                  li:conn { U1-4; CONN1-4; C11-2; CONN4-4; U2-4; C13-1;                  }
+                  }
                  ha:Chassis_GND {
                  li:conn { S1-8; CONN3-4; S1-7; CONN3-3; CONN2-8; CONN2-7; CONN2-6; CONN1-5; CONN4-5; CONN2-1;                 }
                  }
-                ha:N15V {
-                li:conn { U1-4; CONN1-4; C11-2; CONN4-4; U2-4; C13-1;                }
-                }
     ha:GND {
     li:conn { C30-2; S1-1; CONN4-2; CONN1-2; CONN1-3; CONN4-3; C11-1; C10-1; C12-2; C13-2; CONN3-2; R1-2; CONN2-2; C5-1; C6-2; C7-2; R23-2;    }
     }
@@ -11762,16 +11774,16 @@ ha:pcb-rnd-board-v6 {
     min_drill = 0.3810 mm
     text_font_id = 0
     text_scale = 100
-    via_thickness = 60.00 mil
-    via_drilling_hole = 35.00 mil
+    via_thickness = 24.02 mil
+    via_drilling_hole = 11.81 mil
     min_slk = 0.2540 mm
     text_thickness = 0
-    line_thickness = 25.00 mil
+    line_thickness = 6.00 mil
     shrink = 0.2540 mm
     poly_isle_area = 12903200000000.000000
     min_wid = 0.2540 mm
     bloat = 0.2540 mm
-    clearance = 10.00 mil
+    clearance = 6.00 mil
    }
    ha:editor {
     live_routing = false

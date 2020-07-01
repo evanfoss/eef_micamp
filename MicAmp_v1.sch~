@@ -75,8 +75,8 @@ T 49700 51300 5 10 0 0 270 0 1
 symversion=0.1
 T 48700 51200 5 10 1 1 0 6 1
 value=100uF
-T 48700 50600 5 10 1 1 0 6 1
-footprint=rcy(100mil, pol=bar+sign)
+T 48700 50600 5 10 0 1 0 6 1
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
 T 48700 50800 5 10 1 1 0 6 1
 comment=P16292-ND
 T 48700 51000 5 10 1 1 0 6 1
@@ -103,8 +103,8 @@ T 46700 51300 5 10 0 0 270 0 1
 symversion=0.1
 T 45700 51200 5 10 1 1 0 6 1
 value=100uF
-T 45700 50600 5 10 1 1 0 6 1
-footprint=rcy(100mil, pol=bar+sign)
+T 45700 50600 5 10 0 1 0 6 1
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
 T 45700 50800 5 10 1 1 0 6 1
 comment=P16292-ND
 T 45700 51000 5 10 1 1 0 6 1

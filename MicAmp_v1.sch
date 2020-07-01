@@ -505,7 +505,7 @@ symversion=0.1
 T 52200 44900 5 10 1 1 0 6 1
 value=820pF
 T 52200 44500 5 10 1 1 0 6 1
-footprint=acy(232)
+footprint=acy(343)
 T 52200 44700 5 10 1 1 0 6 1
 description=mica
 T 53200 44900 5 10 0 1 270 3 1
