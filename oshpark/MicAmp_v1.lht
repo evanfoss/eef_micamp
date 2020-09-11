@@ -9655,36 +9655,6 @@ ha:pcb-rnd-board-v6 {
      ha:combining { auto=1;     }
 
       li:objects {
-       ha:line.1703 {
-        x1=105.0mil; y1=47.625mm; x2=3.04in; y2=47.625mm; thickness=11.0mil; clearance=12.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.1706 {
-        x1=3.04in; y1=47.625mm; x2=3.115in; y2=1.8in; thickness=11.0mil; clearance=12.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.1709 {
-        x1=3.115in; y1=1.8in; x2=3.115in; y2=60.0mil; thickness=11.0mil; clearance=12.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.1718 {
-        x1=40.0mil; y1=60.0mil; x2=40.0mil; y2=1.81in; thickness=11.0mil; clearance=12.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.1721 {
-        x1=40.0mil; y1=1.81in; x2=105.0mil; y2=47.625mm; thickness=11.0mil; clearance=12.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:text.1749 {
         string=MiniDIN5; x=1.23in; y=585.0mil; scale=99; fid=0;
         rot = 0.000000
@@ -9713,15 +9683,6 @@ ha:pcb-rnd-board-v6 {
         string=Chassis; x=74.93mm; y=1.755in; scale=99; fid=0;
         rot = 90.000000
        }
-       ha:text.60060 {
-        string=Microphone Amplifier; x=70.0mil; y=1.64in; scale=99; fid=0;
-        rot = 0.000000
-       }
-       ha:text.60061 {
-        string=EPL 2020_09_08; x=70.0mil; y=1.72in; scale=100; fid=0;
-        rot = 0.000000
- ha:flags ={ selected=1
- };       }
        ha:text.60068 {
         string={Circuit Design: IJS + EEF}; x=1.87in; y=32.893mm; scale=100; fid=0;
         ha:flags {
@@ -9735,6 +9696,21 @@ ha:pcb-rnd-board-v6 {
          clearline=1
         }
         rot = 360.000000
+       }
+       ha:text.61242 {
+        string=Microphone Amplifier; x=70.0mil; y=1.625in; scale=99; fid=0;
+        rot = 0.000000
+       }
+       ha:text.61243 {
+        string=EPL 2020_09_08; x=70.0mil; y=43.307mm; scale=100; fid=0;
+        rot = 0.000000
+       }
+       ha:text.61244 {
+        string=Prototype OPA1611 and LT1761; x=70.0mil; y=1.78in; scale=100; fid=0;
+        ha:flags {
+         clearline=1
+        }
+        rot = 0.000000
        }
       }
       color = {#000000}
@@ -11769,12 +11745,12 @@ ha:pcb-rnd-board-v6 {
     ha:P15V {
     li:conn { R23-2; U1-7; CONN4-1; CONN1-1; C10-1; U2-7; C12-1;    }
     }
+                        ha:N15V {
+                        li:conn { U1-4; C11-2; CONN1-4; CONN4-4; U2-4; C13-1;                        }
+                        }
                        ha:Chassis_GND {
                        li:conn { S1-8; CONN3-4; S1-7; CONN3-3; CONN2-8; CONN2-7; CONN2-6; R44-1; C22-2; C21-1; CONN1-5; CONN4-5; CONN2-1;                       }
                        }
-                      ha:N15V {
-                      li:conn { U1-4; C11-2; CONN1-4; CONN4-4; U2-4; C13-1;                      }
-                      }
     ha:GND {
     li:conn { VREG1-2; S1-1; CONN4-2; C11-1; C22-1; R44-2; C21-2; CONN1-2; CONN1-3; CONN4-3; C10-2; C12-2; C13-2; CONN3-2; R1-2; C8-2; C9-2; C3-2; CONN2-2; C6-2; C4-2; C7-2; C5-1;    }
     }
