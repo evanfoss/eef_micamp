@@ -642,11 +642,11 @@ refdes=C3
 T 56700 53500 5 10 0 0 270 0 1
 symversion=0.1
 T 55700 53400 5 10 1 1 0 6 1
-value=100uF
+value=10uF
 T 55700 52800 5 10 0 1 0 6 1
 footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
 T 55700 53000 5 10 1 1 0 6 1
-comment=P16292-ND
+comment=35SEPF22M
 T 55700 53200 5 10 1 1 0 6 1
 description=AlPoly
 }
@@ -685,7 +685,7 @@ symversion=0.1
 T 48800 52900 5 10 1 1 0 6 1
 value=10uF
 T 48800 52500 5 10 1 1 0 6 1
-comment=1206
+footprint=1206
 T 48800 52700 5 10 1 1 0 6 1
 description=Ceramic
 }
@@ -708,3 +708,59 @@ description=AlPoly
 }
 N 44700 51100 44700 52000 4
 N 44700 50200 44700 50000 4
+C 44300 46900 1 270 0 capacitor-2.sym
+{
+T 45000 46700 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 44200 46800 5 10 1 1 0 6 1
+refdes=C14
+T 45200 46700 5 10 0 0 270 0 1
+symversion=0.1
+T 44200 46600 5 10 1 1 0 6 1
+value=10uF
+T 44200 46000 5 10 0 1 0 6 1
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
+T 44200 46200 5 10 1 1 0 6 1
+comment=35SEPF22M
+T 44200 46400 5 10 1 1 0 6 1
+description=Ceramic
+}
+C 44400 45400 1 0 0 gnd-1.sym
+C 44300 47300 1 0 0 generic-power.sym
+{
+T 44500 47550 5 10 0 1 0 3 1
+net=P15V:1
+T 44500 47600 5 10 1 1 0 3 1
+comment=+15V
+}
+C 46200 45700 1 180 0 generic-power.sym
+{
+T 46000 45450 5 10 0 1 180 3 1
+net=N15V:1
+T 46000 45400 5 10 1 1 180 3 1
+comment=-15V
+}
+C 45800 46900 1 270 0 capacitor-2.sym
+{
+T 46500 46700 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 45700 46800 5 10 1 1 0 6 1
+refdes=C15
+T 46700 46700 5 10 0 0 270 0 1
+symversion=0.1
+T 45700 46600 5 10 1 1 0 6 1
+value=10uF
+T 45700 46000 5 10 0 1 0 6 1
+footprint=rcy(2.50mm, pol=bar+sign, dia=6.3 mm, pin_ringdia=1.75mm, pin_drill=0.70mm)
+T 45700 46200 5 10 1 1 0 6 1
+comment=35SEPF22M
+T 45700 46400 5 10 1 1 0 6 1
+description=Ceramic
+}
+N 44500 45700 44500 46000 4
+N 46000 45700 46000 46000 4
+N 44500 47300 44500 46900 4
+C 46400 46900 1 0 0 gnd-1.sym
+N 46000 46900 46000 47500 4
+N 46000 47500 46500 47500 4
+N 46500 47500 46500 47200 4
