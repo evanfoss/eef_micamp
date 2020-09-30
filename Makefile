@@ -18,7 +18,7 @@ MATHTOOL = sage
 MATHFLAGS = 
 #
 # Schematic Capture
-SCHTOOL = gschem
+SCHTOOL = lepton-schematic
 SCHFLAGS = -q
 #
 # Schematic Library
@@ -32,7 +32,7 @@ SIMTOOL = gnucap
 SIMFLAGS = >> graph.dat
 #
 # Netlist Generator
-NETTOOL = gnetlist
+NETTOOL = lepton-netlist
 NETFLAGS = -g spice -o 
 NETDRC = -g drc2 -o drcerrors-tmp.text
 #
@@ -41,7 +41,7 @@ GRAPHTOOL = gwave2
 GRAPHFLAGS = 
 #
 ## BOM Generation tool
-BOMTOOL = pcb
+BOMTOOL = pcb-rnd
 BOMFLAGS = -x bom
 
 all:	
