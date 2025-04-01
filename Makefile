@@ -18,7 +18,7 @@ MATHTOOL = sage
 MATHFLAGS = 
 #
 # Schematic Capture
-SCHTOOL = gschem
+SCHTOOL = lepton-schematic
 SCHFLAGS = -q
 #
 # Schematic Library
@@ -41,7 +41,7 @@ GRAPHTOOL = gwave2
 GRAPHFLAGS = 
 #
 ## BOM Generation tool
-BOMTOOL = pcb
+BOMTOOL = pcb-rnd
 BOMFLAGS = -x bom
 
 all:	
@@ -66,25 +66,13 @@ change:
 #	$(GRAPHTOOL) $(GRAPHFLAGS) graph.dat
 
 pcb:	
-	gsch2pcb MicAmp_v1.prj
-	pcb MicAmp_v1.pcb
+	pcb-rnd MicAmp_v1.pcb
 
 view:	
 	$(PCBVIEW) $(PCBVIEWFLAGS) 
 
 bom:
 	$(BOMTOOL) $(BOMFLAGS) MicAmp_v1.pcb
-
-orderapc:
-	echo "Be sure to edit orderform.txt and README.ME."
-	mv MicAmp_v1.frontsilk.gbr cslk.gbr
-	mv MicAmp_v1.front.gbr compont.gbr
-	mv MicAmp_v1.frontmask.gbr cmsk.gbr
-	mv MicAmp_v1.back.gbr solder.gbr
-	mv MicAmp_v1.backmask.gbr smsk.gbr
-	mv MicAmp_v1.plated-drill.cnc drill.cnc
-	rm MicAmp_v1.fab.gbr
-	#zip -jk micamp-apcorder.zip *.gbr drill.cnc orderform.txt READ.ME
 
 clean:
 	rm *.sch~
