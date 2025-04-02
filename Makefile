@@ -66,13 +66,13 @@ change:
 #	$(GRAPHTOOL) $(GRAPHFLAGS) graph.dat
 
 pcb:	
-	pcb-rnd MicAmp_v1.pcb
+	pcb-rnd MicAmp_v1.rp
 
 view:	
 	$(PCBVIEW) $(PCBVIEWFLAGS) 
 
 bom:
-	$(BOMTOOL) $(BOMFLAGS) MicAmp_v1.pcb
+	$(BOMTOOL) $(BOMFLAGS) MicAmp_v1.rp
 
 clean:
 	rm *.sch~
