@@ -22,7 +22,7 @@ symversion=0.1
 T 44200 46900 5 10 1 1 0 3 1
 value=47nF
 T 44200 46500 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 T 44200 46700 5 10 1 1 0 3 1
 description=Metal Film/Mica
 }
@@ -35,7 +35,7 @@ refdes=R22
 T 48100 53400 5 10 1 1 0 3 1
 value=475
 T 48100 53200 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 48900 52500 1 270 0 resistor-1.sym
 {
@@ -46,20 +46,20 @@ refdes=R23
 T 48800 52000 5 10 1 1 0 6 1
 value=90.9
 T 48800 51800 5 10 1 1 0 6 1
-footprint=ACY400
+footprint=acy(400)
 }
-C 51200 52500 1 90 0 capacitor-1.sym
+C 50800 53400 1 270 0 capacitor-1.sym
 {
-T 50500 52700 5 10 0 0 90 0 1
+T 51500 53200 5 10 0 0 270 0 1
 device=CAPACITOR
 T 50700 53300 5 10 1 1 0 6 1
 refdes=C5
-T 50300 52700 5 10 0 0 90 0 1
+T 51700 53200 5 10 0 0 270 0 1
 symversion=0.1
 T 50700 53100 5 10 1 1 0 6 1
 value=0.1uF
 T 50700 52500 5 10 1 1 0 6 1
-footprint=RCY100
+footprint=rcy(100, pol=none)
 T 50700 52700 5 10 1 1 0 6 1
 description=ceramic
 T 50700 52900 5 10 1 1 0 6 1
@@ -76,7 +76,7 @@ symversion=0.1
 T 46700 52200 5 10 1 1 0 6 1
 value=100uF
 T 46700 51600 5 10 1 1 0 6 1
-footprint=RCY100P
+footprint=rcy(100)
 T 46700 51800 5 10 1 1 0 6 1
 comment=P5138-ND
 T 46700 52000 5 10 1 1 0 6 1
@@ -91,7 +91,7 @@ refdes=R24
 T 45900 53400 5 10 1 1 0 3 1
 value=4.7K
 T 45900 53200 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 44800 52500 1 270 0 capacitor-2.sym
 {
@@ -104,7 +104,7 @@ symversion=0.1
 T 44700 52200 5 10 1 1 0 6 1
 value=100uF
 T 44700 51600 5 10 1 1 0 6 1
-footprint=RCY100P
+footprint=rcy(100)
 T 44700 51800 5 10 1 1 0 6 1
 comment=P5138-ND
 T 44700 52000 5 10 1 1 0 6 1
@@ -151,7 +151,7 @@ refdes=R1
 T 45000 44700 5 10 1 1 0 6 1
 value=220K
 T 45000 44500 5 10 1 1 0 6 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 45100 43400 1 0 0 gnd-1.sym
 N 45200 44300 45200 43700 4
@@ -167,7 +167,7 @@ refdes=R31
 T 50400 47800 5 10 1 1 0 3 1
 value=49.9K
 T 50400 47600 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 N 49000 47400 49900 47400 4
 C 40800 51400 1 0 0 connector5-1.sym
@@ -271,21 +271,21 @@ comment=-15V
 }
 N 51900 46000 54100 46000 4
 N 53000 47400 50800 47400 4
-C 54400 43900 1 0 0 capacitor-1.sym
+C 55300 43900 1 0 1 capacitor-1.sym
 {
-T 54600 44600 5 10 0 0 0 0 1
+T 55100 44600 5 10 0 0 0 6 1
 device=CAPACITOR
-T 54800 45200 5 10 1 1 0 3 1
+T 54900 45200 5 10 1 1 0 3 1
 refdes=C13
-T 54600 44800 5 10 0 0 0 0 1
+T 55100 44800 5 10 0 0 0 6 1
 symversion=0.1
-T 54800 45000 5 10 1 1 0 3 1
+T 54900 45000 5 10 1 1 0 3 1
 value=0.1uF
-T 54800 44400 5 10 1 1 0 3 1
-footprint=RCY100
-T 54800 44600 5 10 1 1 0 3 1
+T 54900 44400 5 10 1 1 0 3 1
+footprint=rcy(100, pol=none)
+T 54900 44600 5 10 1 1 0 3 1
 description=ceramic
-T 54800 44800 5 10 1 1 0 3 1
+T 54900 44800 5 10 1 1 0 3 1
 comment=C315C104M5U5TA
 }
 N 54400 44100 53500 44100 4
@@ -312,21 +312,21 @@ T 44400 54500 5 10 1 1 0 1 1
 comment=Chassis
 }
 N 43500 54500 42800 54500 4
-C 56100 48400 1 0 1 capacitor-1.sym
+C 55200 48400 1 0 0 capacitor-1.sym
 {
-T 55900 49100 5 10 0 0 0 6 1
+T 55400 49100 5 10 0 0 0 0 1
 device=CAPACITOR
-T 55700 49700 5 10 1 1 0 3 1
+T 55600 49700 5 10 1 1 0 3 1
 refdes=C12
-T 55900 49300 5 10 0 0 0 6 1
+T 55400 49300 5 10 0 0 0 0 1
 symversion=0.1
-T 55700 49500 5 10 1 1 0 3 1
+T 55600 49500 5 10 1 1 0 3 1
 value=0.1uF
-T 55700 48900 5 10 1 1 0 3 1
-footprint=RCY100
-T 55700 49100 5 10 1 1 0 3 1
+T 55600 48900 5 10 1 1 0 3 1
+footprint=rcy(100, pol=none)
+T 55600 49100 5 10 1 1 0 3 1
 description=ceramic
-T 55700 49300 5 10 1 1 0 3 1
+T 55600 49300 5 10 1 1 0 3 1
 comment=C315C104M5U5TA
 }
 N 56100 48600 57000 48600 4
@@ -348,7 +348,7 @@ symversion=0.1
 T 58400 53400 5 10 1 1 0 3 1
 value=1uF
 T 58400 52800 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 T 58400 53000 5 10 1 1 0 3 1
 description=Metal Film
 T 58400 53200 5 10 1 1 0 3 1
@@ -446,7 +446,7 @@ refdes=R10
 T 57800 46400 5 10 1 1 0 3 1
 value=100
 T 57800 46200 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 N 58200 46000 58600 46000 4
 N 42800 50000 55000 50000 4
@@ -480,7 +480,7 @@ refdes=R11
 T 48600 47800 5 10 1 1 0 3 1
 value=499
 T 48600 47600 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 48400 48400 1 0 0 resistor-1.sym
 {
@@ -491,7 +491,7 @@ refdes=R13
 T 48900 48900 5 10 1 1 0 3 1
 value=5.49K
 T 48900 48700 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 51800 48300 1 0 0 capacitor-1.sym
 {
@@ -504,7 +504,7 @@ symversion=0.1
 T 52200 49200 5 10 1 1 0 3 1
 value=39pF
 T 52200 48800 5 10 1 1 0 3 1
-footprint=ACY300
+footprint=acy(300)
 T 52200 49000 5 10 1 1 0 3 1
 description=mica
 T 52200 49200 5 10 0 1 0 3 1
@@ -577,7 +577,7 @@ symversion=0.1
 T 60100 52800 5 10 1 1 0 3 1
 value=1uF
 T 60100 52200 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 T 60100 52400 5 10 1 1 0 3 1
 description=Metal Film
 T 60100 52600 5 10 1 1 0 3 1
@@ -659,7 +659,7 @@ refdes=R100
 T 46800 44800 5 10 1 1 0 3 1
 value=1K
 T 46800 44600 5 10 1 1 0 3 1
-footprint=ACY400
+footprint=acy(400)
 }
 C 45900 43400 1 0 0 gnd-1.sym
 N 46000 43700 46000 44400 4
