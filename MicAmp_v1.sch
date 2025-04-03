@@ -546,24 +546,24 @@ footprint=DIP8
 T 54100 45500 5 10 0 1 0 0 1
 value=LF356
 }
-T 55000 40700 9 10 1 0 0 0 1
+T 55000 40700 9 8 1 0 0 0 1
 Microphone Amplifier
-T 54900 40400 9 10 1 0 0 0 1
+T 54900 40400 9 8 1 0 0 0 1
 MicAmp_v1.sch
-T 55000 40100 9 10 1 0 0 0 1
+T 55000 40100 9 8 1 0 0 0 1
 1
-T 56500 40100 9 10 1 0 0 0 1
+T 56500 40100 9 8 1 0 0 0 1
 2
-T 58800 40400 9 10 1 0 0 0 1
+T 58800 40400 9 8 1 0 0 0 1
 2.1
-T 58900 40100 9 10 1 0 0 0 1
+T 58900 40100 9 8 1 0 0 0 1
 EEF
 T 60700 40400 14 8 1 0 0 6 1
 DESIGN:
-T 60800 40400 9 10 1 0 0 0 1
-IJS
-T 60800 40100 9 10 1 0 0 0 1
-2010.06.06
+T 60800 40400 9 8 1 0 0 0 1
+IJS, EEF
+T 60800 40100 9 8 1 0 0 0 1
+2025.04.02
 T 60700 40100 14 8 1 0 0 6 1
 DATE:
 C 59600 51700 1 0 0 capacitor-1.sym
@@ -590,7 +590,7 @@ Note: My apologies regarding the reference designators they are done to match pr
 T 40500 41700 9 10 1 0 0 0 1
 Note: Not all meta data is shown. (ex. resistor composition)
 T 40500 42000 9 10 1 0 0 0 1
-Note: Originally the design used an OPA134 instead of the LME49710. The PCB has not yet been updated to reflect this.
+Note: Originally the design used an OPA134 instead of the LME49710 for the 1st stage.
 T 40500 42300 9 10 1 0 0 0 1
 Note: While it is not needed in all locations by default I have been using exclusively metal film resistors.
 T 40500 40500 9 10 1 0 0 0 1
