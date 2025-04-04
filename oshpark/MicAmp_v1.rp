@@ -9312,7 +9312,7 @@ ha:pcb-rnd-board-v9 {
 
     ha:signal2 {
      lid=6
-     group=12
+     group=9
      ha:combining {     }
 
       li:objects {
