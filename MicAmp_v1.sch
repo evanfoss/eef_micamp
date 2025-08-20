@@ -642,7 +642,7 @@ device=RESISTOR
 T 46800 45000 5 10 1 1 0 3 1
 refdes=R100
 T 46800 44800 5 10 1 1 0 3 1
-value=1K
+value=499
 T 46800 44600 5 10 1 1 0 3 1
 footprint=acy(400)
 }
