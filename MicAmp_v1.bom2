@@ -27,3 +27,8 @@
 1	JUMPER5				126-220		CONN4		126-220			N.A.			None			42FX124		Connector MiniHex-9 Wire to Board
 2	DIP8				--		--		A08-LCG-T-R		AE9987-ND		571-1825093-2		52K3254		Socket, DIP8, For U1 and U2
 
+Spair Parts
+1	N.A.				N.A.		N.A.		700701201		CKN1817-ND		611-700701201		36AH3395	Hardware for S1, locking ring (anti-rotation) 1/4"
+1	N.A.				N.A.		N.A.		700303202		CKN1753-ND		611-700303202		69AH5114	Hardware for S1, lockwasher for 1/4-40
+1	N.A.				N.A.		N.A.		700201201		CKN1185-ND		611-700201201		36AH3390	Hardware for S1, nut for 1/4-40
+
